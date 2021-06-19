@@ -1,0 +1,189 @@
+
+body{
+    color:#3F5D45;
+    font-family: "PingFang TC, PingFang TC";
+}
+
+.test{
+    border: 1px solid #111;
+}
+
+.parmary{
+    color:#3F5D45;
+}
+.bg-parmary{
+    color:#3F5D45;
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo{
+    height:40px;
+    width:220px;
+}
+.menu{ 
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    line-height: 40px;
+    text-decoration: none;
+    /* margin-left: 60px; */
+    color: #3F5D45;
+    padding: 0 30px;
+    display: block;
+}
+
+.menu a:hover{
+    background: #3F5D45;
+    color: #EAF0ED;
+}
+
+.menu .shopcar:hover{
+    background:none;
+    background: #EAF0ED;
+}
+
+.banner{
+margin-bottom: 60px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main .submenu{
+    width: 300px;
+}
+
+.main .product_list{
+    display: flex;
+    width: 620px;
+    flex-direction: column;
+}   
+
+.submenu {
+    font-size: 24px;
+    line-height: 65px;
+    text-align: center;
+} 
+.submenu h2{
+    background: #3F5D45;
+    color: #EAF0ED;
+}
+.submenu a{
+    text-decoration: none;
+    color: #3F5D45;
+    display: block;
+    border:1px solid #EAF0ED;
+    margin-bottom: -1px;
+}
+.submenu .active{
+    background: #EAF0ED;
+}
+
+.product_list{
+    width: 620px;
+    margin-bottom: 30px;
+}
+
+.product_card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_card li{
+    /* display: inline-block; */
+    position: relative;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.product_card .tag{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: #3F5D45;
+    color: #EAF0ED;
+    font-size: 16px;
+    writing-mode: vertical-lr;
+    padding: 10px;
+}
+.product_card .heart{  
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+.product_card img{
+    display: block;
+}
+.product_card a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #3F5D45;
+    background: #EAF0ED;
+    font-size: 24px;
+    line-height: 65px;
+
+}
+
+.product_info{
+    width: 300px;
+    /* border: 1px solid #111; */
+}
+
+.product_name,.product_price{
+    text-align: center;
+    line-height: 56px;
+    font-size: 20px;
+    border-right: 1px solid #EAF0ED;
+    border-left: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+    display: inline-block;
+}
+
+.product_name{
+    width:173px;
+}
+.product_price{
+    width:122px;
+    margin-left: -5px;
+}
+
+.add_shopcar{
+    font-weight:bold;
+    font-size: 24px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.pagination a{
+    display:block;
+    font-size: 20px;
+    line-height: 60px;
+    width: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+.pagination a:hover{
+    color: #EAF0ED;
+    background: #3F5D45;
+    
+}
